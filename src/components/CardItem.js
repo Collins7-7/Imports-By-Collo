@@ -6,7 +6,7 @@ function CardItem({image, overview, price, name, path}) {
    <>
    <li className="card__item">
     <Link className="cards__item__link" to={path}>
-        <figure className="cards__item__pic-wrap" data-category={name}>
+        <figure className="cards__item__pic-wrap" data-category={name +"," +" "+ " " + "Price" +" "+ price}>
             <img src={image} alt="'Exotic'" className="cards__item__img" />
         </figure>
         <div className="cards__item__info">

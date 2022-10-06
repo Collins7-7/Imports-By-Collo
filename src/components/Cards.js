@@ -17,7 +17,7 @@ const carList = superCar.map((oneCar)=>{
         <CardItem key={oneCar.id}
         image={oneCar.image} 
         overview={oneCar.overview}
-        price={oneCar.price}
+        price={oneCar.Price}
         name ={oneCar.name}
         path ="/products"/>
         
@@ -26,7 +26,7 @@ const carList = superCar.map((oneCar)=>{
  
   return (
     <div className="cards">
-        <h1>It's Yours if You Want It</h1>
+        <h1>Claim it today!</h1>
         <div className="cards__container">
             <div className="cards__wrapper">
                 <ul className="cards__items">

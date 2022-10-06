@@ -10,10 +10,6 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  useEffect(() => {
-    showButton();
-  }, []);
-
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -22,6 +18,11 @@ function Navbar() {
     }
   };
 
+  useEffect(() => {
+    showButton();
+  }, []);
+
+
   window.addEventListener("resize", showButton);
 
   return (
@@ -29,7 +30,8 @@ function Navbar() {
       <nav className="navbar">
         <div className="nav-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            IBC <i className="fa-sharp fa-solid fa-car"/>
+            IBC 
+            <i className="fa-sharp fa-solid fa-car"/>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -61,7 +63,7 @@ function Navbar() {
 
             <li>
               <Link
-                to="/signup"
+                to="/sign-up"
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
