@@ -17,7 +17,8 @@ const carList = superCar.map((oneCar)=>{
         <CardItem key={oneCar.id}
         image={oneCar.image} 
         overview={oneCar.overview}
-        price={oneCar.price}/>
+        price={oneCar.price}
+        name ={oneCar.name}/>
         
     )
 })
