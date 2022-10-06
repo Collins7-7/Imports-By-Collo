@@ -18,18 +18,19 @@ const carList = superCar.map((oneCar)=>{
         image={oneCar.image} 
         overview={oneCar.overview}
         price={oneCar.price}
-        name ={oneCar.name}/>
+        name ={oneCar.name}
+        path ="/products"/>
         
     )
 })
  
   return (
     <div className="cards">
-        <h1>It's Yours If You Want It</h1>
+        <h1>It's Yours if You Want It</h1>
         <div className="cards__container">
             <div className="cards__wrapper">
                 <ul className="cards__items">
-                    {carList}
+                    <div>{carList}</div>
                 </ul>
             </div>
         </div>
