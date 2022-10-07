@@ -9,9 +9,9 @@
   
   .cards__container {
     display: flex;
-    flex-flow: column;
+    flex-flow:wrap;
     align-items: center;
-    max-width: 1120px;
+    max-width: 500px;
     width: 90%;
     margin: 0 auto;
   }
@@ -26,7 +26,7 @@
   }
   
   .cards__item {
-    display: flex;
+    display:flex;
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
@@ -83,6 +83,21 @@
     max-height: 100%;
     object-fit: cover;
     transition: all 0.2s linear;
+  }
+
+  .delete{
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    background-color: darkred;
   }
   
   .cards__item__img:hover {

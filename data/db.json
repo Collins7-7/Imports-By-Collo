@@ -48,6 +48,13 @@
       "image": "https://hips.hearstapps.com/hmg-prod/images/bugatti-sur-mesure-chiron-pur-sport-106-1639069047.jpg?crop=0.766xw:0.647xh;0.234xw,0.353xh&resize=1200:*",
       "overview": "The 2022 Chiron isn't only the ultimate Bugatti, it's the ultimate car. Period. This $3 million work of art is capable of pummeling the pavement at over 200 mph thanks to a 16-cylinder engine that features four turbochargers and cranks out at least 1500 horsepower—the more expensive Super Sport model is even more powerful.",
       "Price": "$3,300,000"
+    },
+    {
+      "name": "Lamborghini Urus",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/2023-lamborghini-urus-performante-128-1660937562.jpg?crop=0.801xw:0.678xh;0.0801xw,0.154xh&resize=1200:*",
+      "overview": "The 2023 Lamborghini Urus isn’t just an exotic SUV wearing a supercar badge, it’s a supercar with an SUV shell. Not only is that evident by its twin-turbo 4.0-liter V-8 that makes 657 horsepower, but also by its gob-smacking performance on famous racetracks—case in point, the new Performante model that broke the Pikes Peak SUV record.",
+      "Price": "$230,000",
+      "id": 8
     }
   ]
 }

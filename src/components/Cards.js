@@ -44,10 +44,9 @@ const carList = superCar.map((oneCar)=>{
         <h1>Claim it today!</h1>
         <div className="cards__container">
             <div className="cards__wrapper">
-                <ul className="cards__items">
-                    <div>{carList}</div><br />
-                    <div>{<AddCar onAddItem={handleAddCar}/>}</div>
-                </ul>
+                
+                    <div>{carList}</div>
+                    <div>{<AddCar onAddCar={handleAddCar}/>}</div>
             </div>
         </div>
     </div>

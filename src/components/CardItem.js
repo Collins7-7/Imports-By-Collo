@@ -21,7 +21,7 @@ function CardItem({image, overview, price, name, path, onDeleteItems, car}) {
         <div className="cards__item__info">
             <h5 className="cards__item__text">{overview}</h5>
         </div>
-        <button onClick={handleDeleteClick}>Delete</button>
+        <button onClick={handleDeleteClick} className="delete">Delete</button>
     </Link>
    </li>
    
