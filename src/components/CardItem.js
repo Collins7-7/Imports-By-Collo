@@ -4,7 +4,7 @@ import{Link} from "react-router-dom";
 function CardItem({image, overview, price, name, path, onDeleteItems, car}) {
 
     function handleDeleteClick(){
-        fetch (`http://localhost:8000/cars/${car.id}`,{
+        fetch (`https://exotic-cars.herokuapp.com/cars${car.id}`,{
           method: "DELETE",
         })
         .then ((resp) => resp.json())

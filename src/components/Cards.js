@@ -11,7 +11,7 @@ function handleAddCar(newItem){
     setSuperCar([...superCar, newItem]);
   }
 useEffect(()=>{
-    fetch ("http://localhost:8000/cars")
+    fetch ("https://exotic-cars.herokuapp.com/cars")
     .then ((resp)=> resp.json())
     .then((carData)=> setSuperCar(carData))
 },[])
