@@ -25,7 +25,7 @@ equals to or goes below 960px the site adjusts accordingly, the navbar changes t
 #### Collins Muiruri Kamau
 
 ### Setup
-Git clone [This Repo](git@github.com:Collins7-7/Imports-By-Collo.git)
+Git clone [This Repo](https://github.com/Collins7-7/Imports-By-Collo)
 
 ### License
 This project is [MIT](https://www.mit.edu/) licensed.
