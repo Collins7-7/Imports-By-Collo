@@ -1,11 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 import "../../App.css";
 import Cards from "../Cards";
 
 export default function Products(){
+
     return (
         <div>
             <Cards/>
         </div>
     )
-}
+};
