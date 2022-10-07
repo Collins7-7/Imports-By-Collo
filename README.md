@@ -1,7 +1,5 @@
 # Project Name: Imports By Collo.
 
-![site](https://rococo-melomakarona-b89861.netlify.app/)
-
 # Description
 This is an exotic's car purchasing website. 
 To view the cars in store we can go to the product's page.
@@ -23,3 +21,9 @@ equals to or goes below 960px the site adjusts accordingly, the navbar changes t
 
 ### Author
 #### Collins Muiruri Kamau
+
+### Setup
+Git clone git@github.com:Collins7-7/Imports-By-Collo.git
+
+### License
+This project is [MIT](https://www.mit.edu/) licensed.
