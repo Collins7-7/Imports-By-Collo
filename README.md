@@ -11,10 +11,11 @@ The site is also mobile responsive in that, when the window.innerWidth
 equals to or goes below 960px the site adjusts accordingly, the navbar changes to fit a mobile view.
 
 ### Built Using
-- HTML
+```- HTML
 - JavaScript
 - CSS
-- React JS
+- React JS 
+```
 
 ### Live Demo Link
 [Live Link](https://rococo-melomakarona-b89861.netlify.app/)
@@ -23,7 +24,7 @@ equals to or goes below 960px the site adjusts accordingly, the navbar changes t
 #### Collins Muiruri Kamau
 
 ### Setup
-Git clone git@github.com:Collins7-7/Imports-By-Collo.git
+Git clone [git@github.com:Collins7-7/Imports-By-Collo.git](git@github.com:Collins7-7/Imports-By-Collo.git)
 
 ### License
 This project is [MIT](https://www.mit.edu/) licensed.
