@@ -1,7 +1,8 @@
-import React, {useState, useEffect}from 'react';
+import React, {useState}from 'react';
+import "../../App.css";
 
 
-function CarsForm() {
+function AddCar() {
 
 const [newCar, setNewCar] = useState({
     name: "",
@@ -28,7 +29,7 @@ function handleChange(event) {
         Price: newCar.Price
     };
     
-    fetch (" http://localhost:8000/cars",{
+    fetch ("http://localhost:8000/cars",{
             method: "POST",
             header: {
                 "Content-Type": "application/json"
@@ -47,24 +48,24 @@ return (
     <form onSubmit={handleSubmit}>
         <label>
             Name:
-            <input type="text" name="Name" value={newCar.name} onChange={handleChange}/>
+            <input type="text" name="name" value={newCar.name} onChange={handleChange}/>
         </label>
         <label>
             Image:
-            <input type="text" name="Image" value={newCar.image} onChange={handleChange}/>
+            <input type="text" name="image" value={newCar.image} onChange={handleChange}/>
         </label>
         <label>
             Overview:
-            <input type="text" name="Overview" value={newCar.overview} onChange={handleChange}/>
+            <input type="text" name="overview" value={newCar.overview} onChange={handleChange}/>
         </label>
         <label>
             Price:
             <input type="text" name="Price" value={newCar.Price} onChange={handleChange}/>
         </label>
     </form>
-    <button type="submit">Add Question</button>
+    <button type="submit">Add Car</button>
    </section>
   )
 }
 
-export default CarsForm;
+export default AddCar;

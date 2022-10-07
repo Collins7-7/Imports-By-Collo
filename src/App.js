@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Home from "./components/pages/Home";
 import Products from "./components/pages/Products";
-import Services from "./components/pages/Services";
+import NewCars from "./components/pages/NewCars";
 import Signup from "./components/pages/SignUp";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
     <Routes>
       <Route exact path="/" element={<Home/>}/>
       <Route path="/products" element={<Products/>}/>
-      <Route path="/services" element={<Services/>}/>
+      <Route path="/services" element={<NewCars/>}/>
       <Route path="/sign-up" element={<Signup/>}/>
     </Routes>
     </BrowserRouter>
