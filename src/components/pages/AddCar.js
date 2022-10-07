@@ -20,7 +20,7 @@ const [price, setPrice] = useState("");
         Price: price,
     };
 
-    fetch ("http://localhost:8000/cars",{
+    fetch ("https://exotic-cars.herokuapp.com/cars",{
         method: "POST",
         headers:{
           "Content-Type": "application/json",
