@@ -2,33 +2,24 @@ import React, {useState}from 'react';
 import "../../App.css";
 
 
-function AddCar() {
+function AddCar({onAddItem}) {
 
-const [newCar, setNewCar] = useState({
-    name: "",
-    image:"",
-    overview:"",
-    Price:""
-});
+const [name, setName] = useState("");
+const [image, setImage]= useState("");
+const [overview, setOverview]= useState('');
+const [price, setPrice] = useState("");
 
-
-function handleChange(event) {
-    setNewCar({
-      ...newCar,
-      [event.target.name]: event.target.value,
-    });
-  };
 
   function handleSubmit(event){
     event.preventDefault();
 
     const carInfo= {
-        name: newCar.name,
-        image: newCar.image,
-        overview: newCar.overview,
-        Price: newCar.Price
+        name: name,
+        image: image,
+        overview: overview,
+        Price: price,
     };
-    
+    console.log(carInfo);
     fetch ("http://localhost:8000/cars",{
             method: "POST",
             header: {
@@ -37,10 +28,8 @@ function handleChange(event) {
             body: JSON.stringify(carInfo)
         })
         .then ((resp)=> resp.json())
-        .then ((theCar) => setNewCar(theCar))
-
-
-  }
+        .then ((theCar) => onAddItem(theCar))
+}
 
 return (
    <section>
@@ -48,22 +37,22 @@ return (
     <form onSubmit={handleSubmit}>
         <label>
             Name:
-            <input type="text" name="name" value={newCar.name} onChange={handleChange}/>
+            <input type="text" name="name" value={name} onChange={(e) => setName(e.target.value)}/>
         </label>
         <label>
             Image:
-            <input type="text" name="image" value={newCar.image} onChange={handleChange}/>
+            <input type="text" name="image" value={image} onChange={(e) => setImage(e.target.value)}/>
         </label>
         <label>
             Overview:
-            <input type="text" name="overview" value={newCar.overview} onChange={handleChange}/>
+            <input type="text" name="overview" value={overview} onChange={(e) => setOverview(e.target.value)}/>
         </label>
         <label>
             Price:
-            <input type="text" name="Price" value={newCar.Price} onChange={handleChange}/>
+            <input type="text" name="Price" value={price} onChange={(e) => setPrice(e.target.value)}/>
         </label>
+        <button type="submit" >Add Car</button>
     </form>
-    <button type="submit">Add Car</button>
    </section>
   )
 }

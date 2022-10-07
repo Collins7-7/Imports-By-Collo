@@ -1,7 +1,16 @@
 import React from 'react';
 import{Link} from "react-router-dom";
 
-function CardItem({image, overview, price, name, path}) {
+function CardItem({image, overview, price, name, path, onDeleteItems, car}) {
+
+    function handleDeleteClick(){
+        fetch (`http://localhost:8000/cars/${car.id}`,{
+          method: "DELETE",
+        })
+        .then ((resp) => resp.json())
+        .then(()=> onDeleteItems(car))
+    
+      };
   return (
    <>
    <li className="card__item">
@@ -12,6 +21,7 @@ function CardItem({image, overview, price, name, path}) {
         <div className="cards__item__info">
             <h5 className="cards__item__text">{overview}</h5>
         </div>
+        <button onClick={handleDeleteClick}>Delete</button>
     </Link>
    </li>
    

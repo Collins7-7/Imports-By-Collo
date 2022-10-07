@@ -1,53 +1,53 @@
 {
-    "cars": [
-      {
-        "id": 1,
-        "name": "Nissan R35 GTR",
-        "image": "https://images.unsplash.com/photo-1584273421792-84b448728b38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80",
-        "overview": "The handcrafted Nissan GT-R supercar is priced at Rs 2.12 crore (ex-showroom Noida). The GT-R packs a 3.8-litre V6 twin-turbocharged petrol, which puts out 570PS of max power at 6800rpm and 637Nm of peak torque. The engine is mated to a 6-speed dual-clutch transmission in an all-wheel-drive setup. The 2+2 seater GT-R sprints from 0-100kmph in less than 3 seconds and can hit a top speed of 315kmph. In terms of features, the Nissan GT-R packs six airbags, 20-inch alloys, Bose audio system with 11 speakers and black, red, ivory or tan leather seats & interior, among others. ",
-        "Price": "$210,000"
-      },
-      {
-        "id": 2,
-        "name": "McLaren 765LT",
-        "image": "https://hips.hearstapps.com/hmg-prod/images/2022-mclaren-765lt-spider-115-1652724748.jpg?crop=0.795xw:0.671xh;0.0913xw,0.0986xh&resize=1200:*",
-        "overview": "The McLaren 765LT is a supercar that makes track performance a priority and lets most creature comforts fall by the wayside. With a 755-horsepower twin-turbocharged V-8 mounted amidships, it’s wickedly quick, and its lightweight construction makes it a missile around the racetrack. Its “LT” name refers to the fact that it’s a “longtail” version of the 720S, with which it shares many components. The simplistic interior has a no-nonsense feel, and the standard retractable convertible top on the Spider version adds a bit of weight but shouldn’t detract too much from the pure driving experience.",
-        "Price":"$358,000"
-      },
-      {
-        "id": 3,
-        "name": "Porsche 911 GT3",
-        "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/07/071A5411.jpg",
-        "overview": "Simply put, the 2023 Porsche 911 GT3 and the all-out track-attack GT3 RS are utterly transcendent, blending everything we love about the standard 911 with otherworldly performance, uncompromised driving enjoyment, and hot-lap capability. A naturally-aspirated 4.0-liter flat-six engine makes demonic sounds as it howls up to its 9000 rpm redline, producing 502-horsepower along the way in the GT3 and GT3 Touring.",
-        "Price":"$171,150"
-      },
-      {
-        "id": 4,
-        "name": "Ferrari F8 Tributo",
-        "image": "https://images.unsplash.com/photo-1614200179396-2bdb77ebf81b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
-        "overview": "Powering the Ferrari F8 Tributo is yet another gift from the 488 Pista. It’s a 3.9-liter twin-turbocharged V8 pushing out 710 horsepower and 568 pounds of torque. Thanks to its sub-3,200-lb curb weight, the F8 hits 62 mph in 2.9 seconds before continuing to a top speed of 211 mph.",
-        "Price": "$283,950"
-      },
-      {
-        "id": 5,
-        "name": "Lamborghini Huracan Evo",
-        "image": "https://hips.hearstapps.com/hmg-prod/images/2022-lamborghini-huracan-tecnica-101-1649342000.jpg?crop=0.893xw:0.752xh;0.0833xw,0.0553xh&resize=1200:*",
-        "overview": "The 2022 Lamborghini Huracán draws everyone's attention, but it's the way it assaults the driver's senses that makes it special. The main attraction is the 600-plus-hp naturally aspirated V-10 that is mounted in the middle of the exotic-looking Lamborghini. The engine sounds magnificent when revved to its lofty redline, and it helps deliver hilariously quick acceleration.",
-        "Price": "$206,295"
-      },
-      {
-        "id": 6,
-        "name": "Audi R8",
-        "image": "https://hips.hearstapps.com/hmg-prod/images/2023-audi-r8-gt-front-three-quarters-motion-3-1664827965.jpg?crop=0.684xw:0.577xh;0.0321xw,0.281xh&resize=1200:*",
-        "overview": "Few supercars actually get driven daily, but the 2023 Audi R8 seems designed for such a task. It offers a reasonably easy-going ride along with its breakneck acceleration. The R8 shares its underpinnings and its powertrain—a mighty V-10 and seven-speed automatic—with the wild Lamborghini Huracán. The Audi is less hardcore than the Lambo, though, less intense on a twisty road or racetrack. What the R8 offers instead is a level of refinement that’s more in line with the rest of the Audi lineup.",
-        "Price":"$200,000"
-      },
-      {
-        "id": 7,
-        "name": "Bugatti Chiron",
-        "image": "https://hips.hearstapps.com/hmg-prod/images/bugatti-sur-mesure-chiron-pur-sport-106-1639069047.jpg?crop=0.766xw:0.647xh;0.234xw,0.353xh&resize=1200:*",
-        "overview":"The 2022 Chiron isn't only the ultimate Bugatti, it's the ultimate car. Period. This $3 million work of art is capable of pummeling the pavement at over 200 mph thanks to a 16-cylinder engine that features four turbochargers and cranks out at least 1500 horsepower—the more expensive Super Sport model is even more powerful.",
-        "Price":"$3,300,000"
-      }
-    ]
-  }
+  "cars": [
+    {
+      "id": 1,
+      "name": "Nissan R35 GTR",
+      "image": "https://images.unsplash.com/photo-1584273421792-84b448728b38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80",
+      "overview": "The handcrafted Nissan GT-R supercar is priced at Rs 2.12 crore (ex-showroom Noida). The GT-R packs a 3.8-litre V6 twin-turbocharged petrol, which puts out 570PS of max power at 6800rpm and 637Nm of peak torque. The engine is mated to a 6-speed dual-clutch transmission in an all-wheel-drive setup. The 2+2 seater GT-R sprints from 0-100kmph in less than 3 seconds and can hit a top speed of 315kmph. In terms of features, the Nissan GT-R packs six airbags, 20-inch alloys, Bose audio system with 11 speakers and black, red, ivory or tan leather seats & interior, among others. ",
+      "Price": "$210,000"
+    },
+    {
+      "id": 2,
+      "name": "McLaren 765LT",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/2022-mclaren-765lt-spider-115-1652724748.jpg?crop=0.795xw:0.671xh;0.0913xw,0.0986xh&resize=1200:*",
+      "overview": "The McLaren 765LT is a supercar that makes track performance a priority and lets most creature comforts fall by the wayside. With a 755-horsepower twin-turbocharged V-8 mounted amidships, it’s wickedly quick, and its lightweight construction makes it a missile around the racetrack. Its “LT” name refers to the fact that it’s a “longtail” version of the 720S, with which it shares many components. The simplistic interior has a no-nonsense feel, and the standard retractable convertible top on the Spider version adds a bit of weight but shouldn’t detract too much from the pure driving experience.",
+      "Price": "$358,000"
+    },
+    {
+      "id": 3,
+      "name": "Porsche 911 GT3",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/07/071A5411.jpg",
+      "overview": "Simply put, the 2023 Porsche 911 GT3 and the all-out track-attack GT3 RS are utterly transcendent, blending everything we love about the standard 911 with otherworldly performance, uncompromised driving enjoyment, and hot-lap capability. A naturally-aspirated 4.0-liter flat-six engine makes demonic sounds as it howls up to its 9000 rpm redline, producing 502-horsepower along the way in the GT3 and GT3 Touring.",
+      "Price": "$171,150"
+    },
+    {
+      "id": 4,
+      "name": "Ferrari F8 Tributo",
+      "image": "https://images.unsplash.com/photo-1614200179396-2bdb77ebf81b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+      "overview": "Powering the Ferrari F8 Tributo is yet another gift from the 488 Pista. It’s a 3.9-liter twin-turbocharged V8 pushing out 710 horsepower and 568 pounds of torque. Thanks to its sub-3,200-lb curb weight, the F8 hits 62 mph in 2.9 seconds before continuing to a top speed of 211 mph.",
+      "Price": "$283,950"
+    },
+    {
+      "id": 5,
+      "name": "Lamborghini Huracan Evo",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/2022-lamborghini-huracan-tecnica-101-1649342000.jpg?crop=0.893xw:0.752xh;0.0833xw,0.0553xh&resize=1200:*",
+      "overview": "The 2022 Lamborghini Huracán draws everyone's attention, but it's the way it assaults the driver's senses that makes it special. The main attraction is the 600-plus-hp naturally aspirated V-10 that is mounted in the middle of the exotic-looking Lamborghini. The engine sounds magnificent when revved to its lofty redline, and it helps deliver hilariously quick acceleration.",
+      "Price": "$206,295"
+    },
+    {
+      "id": 6,
+      "name": "Audi R8",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/2023-audi-r8-gt-front-three-quarters-motion-3-1664827965.jpg?crop=0.684xw:0.577xh;0.0321xw,0.281xh&resize=1200:*",
+      "overview": "Few supercars actually get driven daily, but the 2023 Audi R8 seems designed for such a task. It offers a reasonably easy-going ride along with its breakneck acceleration. The R8 shares its underpinnings and its powertrain—a mighty V-10 and seven-speed automatic—with the wild Lamborghini Huracán. The Audi is less hardcore than the Lambo, though, less intense on a twisty road or racetrack. What the R8 offers instead is a level of refinement that’s more in line with the rest of the Audi lineup.",
+      "Price": "$200,000"
+    },
+    {
+      "id": 7,
+      "name": "Bugatti Chiron",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/bugatti-sur-mesure-chiron-pur-sport-106-1639069047.jpg?crop=0.766xw:0.647xh;0.234xw,0.353xh&resize=1200:*",
+      "overview": "The 2022 Chiron isn't only the ultimate Bugatti, it's the ultimate car. Period. This $3 million work of art is capable of pummeling the pavement at over 200 mph thanks to a 16-cylinder engine that features four turbochargers and cranks out at least 1500 horsepower—the more expensive Super Sport model is even more powerful.",
+      "Price": "$3,300,000"
+    }
+  ]
+}
