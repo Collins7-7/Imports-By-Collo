@@ -26,7 +26,7 @@ function handleDeletedItem(deletedCar){
 
 const carList = superCar.map((oneCar)=>{
     return (
-        <>
+        <div>
         <CardItem key={oneCar.id}
         image={oneCar.image} 
         overview={oneCar.overview}
@@ -35,7 +35,7 @@ const carList = superCar.map((oneCar)=>{
         path ="/products"
         onDeleteItems={handleDeletedItem}
         car={oneCar}/>
-        </>
+        </div>
     )
 })
  
@@ -46,7 +46,6 @@ const carList = superCar.map((oneCar)=>{
             <div className="cards__wrapper">
                 
                     <div>{carList}</div>
-                    <div>{<AddCar onAddCar={handleAddCar}/>}</div>
             </div>
         </div>
     </div>

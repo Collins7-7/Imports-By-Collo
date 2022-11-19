@@ -32,28 +32,28 @@ const [price, setPrice] = useState("");
       }
 
   return (
-   <section >
+   <div className='add-car-div'>
     <h1>Add Cars</h1>
     <form onSubmit={handleSubmit} className='form'>
         <label>
             Name:
-            <input className="inputs" type="text" name="name" value={name} onChange={(e) => setName(e.target.value)}/>
+            <input className="name" type="text" name="name" value={name} onChange={(e) => setName(e.target.value)}/>
         </label>
         <label>
             Image:
-            <input className="inputs" type="text" name="image" value={image} onChange={(e) => setImage(e.target.value)}/>
+            <input className="image" type="text" name="image" value={image} onChange={(e) => setImage(e.target.value)}/>
         </label>
         <label>
             Overview:
-            <input className="inputs" type="text" name="overview" value={overview} onChange={(e) => setOverview(e.target.value)}/>
+            <input className="overview" type="text" name="overview" value={overview} onChange={(e) => setOverview(e.target.value)}/>
         </label>
         <label>
             Price:
-            <input className="inputs" type="text" name="Price" value={price} onChange={(e) => setPrice(e.target.value)}/>
+            <input className="price" type="text" name="Price" value={price} onChange={(e) => setPrice(e.target.value)}/>
         </label>
         <button type="submit" className='add_car'>Add Car</button>
     </form>
-   </section>
+   </div>
   )}
 
 

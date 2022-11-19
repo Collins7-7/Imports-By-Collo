@@ -1,3 +1,10 @@
+
+.add-car-div{
+height: 1000px;
+background-color: white;
+padding-top: 100px;
+}
+
 .form{
     display: flex;
     flex-flow:wrap;
@@ -5,9 +12,10 @@
     max-width: 500px;
     width: 90%;
     margin: 0 auto;
+    padding-top: 100px;
 }
 
-.inputs{
+.name, .overview, .price, .image{
     display: flex;
     flex-flow: column;
     width: 100%;
@@ -17,14 +25,24 @@
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
-    background-color: rgb(134, 132, 131);
+    background-color: rgb(214, 207, 203);
+}
+.image{
+    margin-left: 10px;
+}
+.overview{
+    margin-left: 10px;
+}
+.price{
+    margin-left: 20px;
 }
 
 .add_car{
+    margin-left: 30px;
     padding: 8px 20px;
     border-radius: 2px;
     outline: none;
     border: none;
     cursor: pointer;
-    background-color:rgb(2, 252, 2);
+    background-color: rgb(236, 8, 8);
 }
